@@ -32,10 +32,10 @@ public class Test {
 	private Integer tries;
 	
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="id_element", referencedColumnName="id_element")
+	@JoinColumn(name="initial", referencedColumnName="id_element")
 	private Element initial;
 	
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="id_element", referencedColumnName="id_element")
+	@JoinColumn(name="possibilities", referencedColumnName="id_element")
 	private List<Element> possibilities;
 }
