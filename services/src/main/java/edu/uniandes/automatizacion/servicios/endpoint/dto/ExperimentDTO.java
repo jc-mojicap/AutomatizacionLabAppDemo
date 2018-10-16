@@ -4,6 +4,7 @@ import java.util.List;
 
 public class ExperimentDTO {
 
+	private Long idExperiment;
 	private String name;
 	private String description;
 	private String status;
@@ -13,6 +14,14 @@ public class ExperimentDTO {
 	public ExperimentDTO() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public Long getIdExperiment() {
+		return idExperiment;
+	}
+
+	public void setIdExperiment(Long idExperiment) {
+		this.idExperiment = idExperiment;
 	}
 
 	public String getName() {
