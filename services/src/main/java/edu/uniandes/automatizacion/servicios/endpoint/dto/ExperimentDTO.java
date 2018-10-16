@@ -1,10 +1,13 @@
 package edu.uniandes.automatizacion.servicios.endpoint.dto;
 
+import java.util.List;
+
 public class ExperimentDTO {
 
 	private String name;
 	private String description;
 	private String status;
+	private List<GroupDTO> groups;
 	
 	public ExperimentDTO() {
 		super();
@@ -33,6 +36,14 @@ public class ExperimentDTO {
 
 	public void setStatus(String status) {
 		this.status = status;
+	}
+
+	public List<GroupDTO> getGroups() {
+		return groups;
+	}
+
+	public void setGroups(List<GroupDTO> groups) {
+		this.groups = groups;
 	}
 	
 	

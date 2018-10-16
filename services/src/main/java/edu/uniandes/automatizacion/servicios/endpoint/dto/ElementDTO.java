@@ -1,12 +1,11 @@
 package edu.uniandes.automatizacion.servicios.endpoint.dto;
 
-import java.util.List;
-
 public class ElementDTO {
 
 	private String name;
 	private String type;
-	private List<String> paths;
+	private String pathImage;
+	private String pathSound;
 	private Boolean isAnswer;
 	
 	public ElementDTO() {
@@ -30,12 +29,20 @@ public class ElementDTO {
 		this.type = type;
 	}
 
-	public List<String> getPaths() {
-		return paths;
+	public String getPathImage() {
+		return pathImage;
 	}
 
-	public void setPaths(List<String> paths) {
-		this.paths = paths;
+	public void setPathImage(String pathImage) {
+		this.pathImage = pathImage;
+	}
+
+	public String getPathSound() {
+		return pathSound;
+	}
+
+	public void setPathSound(String pathSound) {
+		this.pathSound = pathSound;
 	}
 
 	public Boolean getIsAnswer() {
