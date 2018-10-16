@@ -38,4 +38,53 @@ public class Test {
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinColumn(name="possibilities", referencedColumnName="id_element")
 	private List<Element> possibilities;
+
+	public Long getIdTest() {
+		return idTest;
+	}
+
+	public void setIdTest(Long idTest) {
+		this.idTest = idTest;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Boolean getIsRepeatable() {
+		return isRepeatable;
+	}
+
+	public void setIsRepeatable(Boolean isRepeatable) {
+		this.isRepeatable = isRepeatable;
+	}
+
+	public Integer getTries() {
+		return tries;
+	}
+
+	public void setTries(Integer tries) {
+		this.tries = tries;
+	}
+
+	public Element getInitial() {
+		return initial;
+	}
+
+	public void setInitial(Element initial) {
+		this.initial = initial;
+	}
+
+	public List<Element> getPossibilities() {
+		return possibilities;
+	}
+
+	public void setPossibilities(List<Element> possibilities) {
+		this.possibilities = possibilities;
+	}
+
 }
