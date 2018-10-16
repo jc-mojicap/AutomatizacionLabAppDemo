@@ -38,5 +38,53 @@ public class Experiment {
 	@JoinColumn(name="id_experiment", referencedColumnName="id_experiment", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Phase> phases;
+
+	public Long getIdExperiment() {
+		return idExperiment;
+	}
+
+	public void setIdExperiment(Long idExperiment) {
+		this.idExperiment = idExperiment;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public List<Group> getGroups() {
+		return groups;
+	}
+
+	public void setGroups(List<Group> groups) {
+		this.groups = groups;
+	}
+
+	public List<Phase> getPhases() {
+		return phases;
+	}
+
+	public void setPhases(List<Phase> phases) {
+		this.phases = phases;
+	}
 	
 }
