@@ -8,6 +8,7 @@ public class ExperimentDTO {
 	private String description;
 	private String status;
 	private List<GroupDTO> groups;
+	private List<PhaseDTO> phases;
 	
 	public ExperimentDTO() {
 		super();
@@ -45,6 +46,13 @@ public class ExperimentDTO {
 	public void setGroups(List<GroupDTO> groups) {
 		this.groups = groups;
 	}
-	
-	
+
+	public List<PhaseDTO> getPhases() {
+		return phases;
+	}
+
+	public void setPhases(List<PhaseDTO> phases) {
+		this.phases = phases;
+	}
+
 }
