@@ -14,8 +14,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import edu.uniandes.automatizacion.servicios.endpoint.dto.TestDTO;
-
 @Entity
 @Table(name="phase")
 public class Phase {
@@ -55,8 +53,95 @@ public class Phase {
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase nextSuccess;
 	
-	
+	@JoinColumn(name = "id_phase", referencedColumnName = "id_phase", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<TestDTO> tests;
-	
+	private List<Test> tests;
+
+	public Long getIdPhase() {
+		return idPhase;
+	}
+
+	public void setIdPhase(Long idPhase) {
+		this.idPhase = idPhase;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getInstructions() {
+		return instructions;
+	}
+
+	public void setInstructions(String instructions) {
+		this.instructions = instructions;
+	}
+
+	public String getInstructionsSoundPath() {
+		return instructionsSoundPath;
+	}
+
+	public void setInstructionsSoundPath(String instructionsSoundPath) {
+		this.instructionsSoundPath = instructionsSoundPath;
+	}
+
+	public Integer getPosition() {
+		return position;
+	}
+
+	public void setPosition(Integer position) {
+		this.position = position;
+	}
+
+	public Boolean getIsRepeatable() {
+		return isRepeatable;
+	}
+
+	public void setIsRepeatable(Boolean isRepeatable) {
+		this.isRepeatable = isRepeatable;
+	}
+
+	public Integer getTries() {
+		return tries;
+	}
+
+	public void setTries(Integer tries) {
+		this.tries = tries;
+	}
+
+	public Phase getNextPhase() {
+		return nextPhase;
+	}
+
+	public void setNextPhase(Phase nextPhase) {
+		this.nextPhase = nextPhase;
+	}
+
+	public Phase getPreviousPhase() {
+		return previousPhase;
+	}
+
+	public void setPreviousPhase(Phase previousPhase) {
+		this.previousPhase = previousPhase;
+	}
+
+	public Phase getNextSuccess() {
+		return nextSuccess;
+	}
+
+	public void setNextSuccess(Phase nextSuccess) {
+		this.nextSuccess = nextSuccess;
+	}
+
+	public List<Test> getTests() {
+		return tests;
+	}
+
+	public void setTests(List<Test> tests) {
+		this.tests = tests;
+	}
 }

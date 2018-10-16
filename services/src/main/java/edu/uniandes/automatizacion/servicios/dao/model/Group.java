@@ -13,8 +13,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import edu.uniandes.automatizacion.servicios.endpoint.dto.SubjectDTO;
-
 @Entity
 @Table(name="group")
 public class Group {
@@ -35,5 +33,45 @@ public class Group {
 	
 	@JoinColumn(name="id_group", referencedColumnName="id_group", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<SubjectDTO> subjects;
+	private List<Subject> subjects;
+
+	public Long getIdGroup() {
+		return idGroup;
+	}
+
+	public void setIdGroup(Long idGroup) {
+		this.idGroup = idGroup;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public List<Subject> getSubjects() {
+		return subjects;
+	}
+
+	public void setSubjects(List<Subject> subjects) {
+		this.subjects = subjects;
+	}
 }
