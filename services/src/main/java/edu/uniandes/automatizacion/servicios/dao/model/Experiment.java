@@ -86,5 +86,4 @@ public class Experiment {
 	public void setPhases(List<Phase> phases) {
 		this.phases = phases;
 	}
-	
 }
