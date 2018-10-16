@@ -14,7 +14,7 @@ public class Program {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_program", nullable = false)
-	private long idProgram;
+	private Integer idProgram;
 	
 	@Column(name="code")
 	private String code;
@@ -25,11 +25,11 @@ public class Program {
 	@Column(name="status")
 	private String status;
 
-	public long getIdProgram() {
+	public Integer getIdProgram() {
 		return idProgram;
 	}
 
-	public void setIdProgram(long idProgram) {
+	public void setIdProgram(Integer idProgram) {
 		this.idProgram = idProgram;
 	}
 

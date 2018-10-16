@@ -3,25 +3,25 @@ package edu.uniandes.automatizacion.servicios.endpoint.dto;
 import java.util.List;
 
 
-public class GroupDTO {
+public class GrupoDTO {
 
-	private Long idGroup;
+	private Long idGrupo;
 	private String name;
 	private String description;
 	private String status;
 	private List<SubjectDTO> subjects;
 	
-	public GroupDTO() {
+	public GrupoDTO() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Long getIdGroup() {
-		return idGroup;
+	public Long getIdGrupo() {
+		return idGrupo;
 	}
 	
-	public void setIdGroup(Long idGroup) {
-		this.idGroup = idGroup;
+	public void setIdGrupo(Long idGrupo) {
+		this.idGrupo = idGrupo;
 	}
 	
 	public String getName() {

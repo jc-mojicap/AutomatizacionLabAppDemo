@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -18,7 +18,7 @@ public class Subject {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_subject", nullable = false)
-	private long idSubject;
+	private Integer idSubject;
 	
 	@Column(name="name")
 	private String name;
@@ -41,15 +41,15 @@ public class Subject {
 	@Column(name="semester")
 	private int semester;
 
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="id_program", referencedColumnName="program")
+	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinColumn(name="id_program", referencedColumnName="id_program")
 	private Program program;
 
-	public long getIdSubject() {
+	public Integer getIdSubject() {
 		return idSubject;
 	}
 
-	public void setIdSubject(long idSubject) {
+	public void setIdSubject(Integer idSubject) {
 		this.idSubject = idSubject;
 	}
 

@@ -11,6 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -20,7 +21,7 @@ public class Test {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_test", nullable = false)
-	private Long idTest;
+	private Integer idTest;
 	
 	@Column(name="name")
 	private String name;
@@ -31,19 +32,19 @@ public class Test {
 	@Column(name="tries")
 	private Integer tries;
 	
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="initial", referencedColumnName="id_element")
+	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinColumn(name="id_element", referencedColumnName="id_element")
 	private Element initial;
 	
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="possibilities", referencedColumnName="id_element")
+	@JoinColumn(name="id_element", referencedColumnName="id_element")
 	private List<Element> possibilities;
 
-	public Long getIdTest() {
+	public Integer getIdTest() {
 		return idTest;
 	}
 
-	public void setIdTest(Long idTest) {
+	public void setIdTest(Integer idTest) {
 		this.idTest = idTest;
 	}
 

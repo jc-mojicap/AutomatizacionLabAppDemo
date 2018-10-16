@@ -14,7 +14,7 @@ public class Element {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_element", nullable = false)
-	private Long idElement;
+	private Integer idElement;
 	
 	@Column(name="name")
 	private String name;
@@ -31,11 +31,11 @@ public class Element {
 	@Column(name="is_answer")
 	private Boolean isAnswer;
 
-	public Long getIdElement() {
+	public Integer getIdElement() {
 		return idElement;
 	}
 
-	public void setIdElement(Long idElement) {
+	public void setIdElement(Integer idElement) {
 		this.idElement = idElement;
 	}
 

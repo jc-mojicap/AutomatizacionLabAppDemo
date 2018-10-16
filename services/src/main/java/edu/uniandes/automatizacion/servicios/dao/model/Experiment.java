@@ -20,7 +20,7 @@ public class Experiment {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_experiment", nullable = false)
-	private Long idExperiment;
+	private Integer idExperiment;
 	
 	@Column(name="name")
 	private String name;
@@ -33,17 +33,17 @@ public class Experiment {
 	
 	@JoinColumn(name="id_experiment", referencedColumnName="id_experiment", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<Group> groups;
+	private List<Grupo> grupos;
 	
 	@JoinColumn(name="id_experiment", referencedColumnName="id_experiment", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Phase> phases;
 
-	public Long getIdExperiment() {
+	public Integer getIdExperiment() {
 		return idExperiment;
 	}
 
-	public void setIdExperiment(Long idExperiment) {
+	public void setIdExperiment(Integer idExperiment) {
 		this.idExperiment = idExperiment;
 	}
 
@@ -71,12 +71,12 @@ public class Experiment {
 		this.status = status;
 	}
 
-	public List<Group> getGroups() {
-		return groups;
+	public List<Grupo> getGrupos() {
+		return grupos;
 	}
 
-	public void setGroups(List<Group> groups) {
-		this.groups = groups;
+	public void setGrupos(List<Grupo> grupos) {
+		this.grupos = grupos;
 	}
 
 	public List<Phase> getPhases() {

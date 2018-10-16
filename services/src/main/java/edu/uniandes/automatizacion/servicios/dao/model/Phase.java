@@ -21,7 +21,7 @@ public class Phase {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_phase", nullable = false)
-	private Long idPhase;
+	private Integer idPhase;
 	
 	@Column(name="name")
 	private String name;
@@ -57,11 +57,11 @@ public class Phase {
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Test> tests;
 
-	public Long getIdPhase() {
+	public Integer getIdPhase() {
 		return idPhase;
 	}
 
-	public void setIdPhase(Long idPhase) {
+	public void setIdPhase(Integer idPhase) {
 		this.idPhase = idPhase;
 	}
 

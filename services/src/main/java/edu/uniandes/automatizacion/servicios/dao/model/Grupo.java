@@ -13,13 +13,13 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="group")
-public class Group {
+@Table(name="grupo")
+public class Grupo {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_group", nullable = false)
-	private Long idGroup;
+	@Column(name = "id_grupo", nullable = false)
+	private Integer idGrupo;
 	
 	@Column(name="name")
 	private String name;
@@ -30,16 +30,16 @@ public class Group {
 	@Column(name="status")
 	private String status;
 	
-	@JoinColumn(name="id_group", referencedColumnName="id_group", nullable = false)
-    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinColumn(name="id_grupo", referencedColumnName="id_grupo")
 	private List<Subject> subjects;
 
-	public Long getIdGroup() {
-		return idGroup;
+	public Integer getIdGrupo() {
+		return idGrupo;
 	}
 
-	public void setIdGroup(Long idGroup) {
-		this.idGroup = idGroup;
+	public void setIdGrupo(Integer idGrupo) {
+		this.idGrupo = idGrupo;
 	}
 
 	public String getName() {

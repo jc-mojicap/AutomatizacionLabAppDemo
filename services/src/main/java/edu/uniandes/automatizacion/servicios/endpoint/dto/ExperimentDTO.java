@@ -8,7 +8,7 @@ public class ExperimentDTO {
 	private String name;
 	private String description;
 	private String status;
-	private List<GroupDTO> groups;
+	private List<GrupoDTO> grupos;
 	private List<PhaseDTO> phases;
 	
 	public ExperimentDTO() {
@@ -48,12 +48,12 @@ public class ExperimentDTO {
 		this.status = status;
 	}
 
-	public List<GroupDTO> getGroups() {
-		return groups;
+	public List<GrupoDTO> getGrupos() {
+		return grupos;
 	}
 
-	public void setGroups(List<GroupDTO> groups) {
-		this.groups = groups;
+	public void setGrupos(List<GrupoDTO> grupos) {
+		this.grupos = grupos;
 	}
 
 	public List<PhaseDTO> getPhases() {
