@@ -5,6 +5,7 @@ import java.util.List;
 
 public class GroupDTO {
 
+	private Long idGroup;
 	private String name;
 	private String description;
 	private String status;
@@ -14,6 +15,15 @@ public class GroupDTO {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Long getIdGroup() {
+		return idGroup;
+	}
+	
+	public void setIdGroup(Long idGroup) {
+		this.idGroup = idGroup;
+	}
+	
 	public String getName() {
 		return name;
 	}

@@ -13,14 +13,16 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import edu.uniandes.automatizacion.servicios.endpoint.dto.SubjectDTO;
+
 @Entity
-@Table(name="experiment")
-public class Experiment {
-	
+@Table(name="group")
+public class Group {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_experiment", nullable = false)
-	private Long idExperiment;
+	@Column(name = "id_group", nullable = false)
+	private Long idGroup;
 	
 	@Column(name="name")
 	private String name;
@@ -31,12 +33,7 @@ public class Experiment {
 	@Column(name="status")
 	private String status;
 	
-	@JoinColumn(name="id_experiment", referencedColumnName="id_experiment", nullable = false)
+	@JoinColumn(name="id_group", referencedColumnName="id_group", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<Group> groups;
-	
-	@JoinColumn(name="id_experiment", referencedColumnName="id_experiment", nullable = false)
-    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<Phase> phases;
-	
+	private List<SubjectDTO> subjects;
 }
