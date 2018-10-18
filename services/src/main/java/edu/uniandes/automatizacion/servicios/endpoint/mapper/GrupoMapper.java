@@ -30,6 +30,4 @@ public interface GrupoMapper {
 	
 	List<Subject> subjectsDTOToSubjects(List<SubjectDTO> subjectsDTO);
 	
-	List<SubjectDTO> subjectsToSubjectsDTO(List<Subject> subjects);
-	
 }

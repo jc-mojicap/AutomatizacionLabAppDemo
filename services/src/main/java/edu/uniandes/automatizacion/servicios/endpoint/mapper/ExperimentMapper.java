@@ -32,10 +32,5 @@ public interface ExperimentMapper {
 	
 	List<Grupo> gruposDTOToGrupos(List<GrupoDTO> gruposDTO);
 	
-	List<GrupoDTO> gruposToGruposDTO(List<Grupo> grupos);
-	
 	List<Phase> phasesDTOToPhases(List<PhaseDTO> phasesDTO);
-	
-	List<PhaseDTO> phasesToPhasesDTO(List<Phase> phases);
-	
 }
