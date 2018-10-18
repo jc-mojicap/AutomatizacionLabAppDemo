@@ -9,6 +9,6 @@ import edu.uniandes.automatizacion.servicios.dao.model.Phase;
 public interface PhaseRepository extends JpaRepository<Phase, Integer> {
 
 	List<Phase> findByIdPhase(Integer idPhase);
-	List<Phase> findByIdExperiment(Integer idExperiment);
+	//List<Phase> findByIdExperiment(Integer idExperiment);
 	
 }

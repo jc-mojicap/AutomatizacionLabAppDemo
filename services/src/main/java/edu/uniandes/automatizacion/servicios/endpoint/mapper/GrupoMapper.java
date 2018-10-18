@@ -12,18 +12,17 @@ import edu.uniandes.automatizacion.servicios.dao.model.Subject;
 import edu.uniandes.automatizacion.servicios.endpoint.dto.GrupoDTO;
 import edu.uniandes.automatizacion.servicios.endpoint.dto.SubjectDTO;
 
-@Mapper
+//@Mapper
 public interface GrupoMapper {
 
 	/**
      * Instancia de la clase.
      */
-	GrupoMapper INSTANCE = Mappers.getMapper(GrupoMapper.class);
+	/*GrupoMapper INSTANCE = Mappers.getMapper(GrupoMapper.class);
 
 	@Mappings({
-        @Mapping(source = "make", target = "manufacturer"),
-        @Mapping(source = "numberOfSeats", target = "seatCount")
-    })
+        @Mapping(source = "subjects", target = "subjects")
+    })*/
 	Grupo grupoDTOToGrupo(GrupoDTO grupoDTO);
 	
 	GrupoDTO grupoToGrupoDTO(Grupo grupo);

@@ -14,7 +14,7 @@ import edu.uniandes.automatizacion.servicios.endpoint.dto.ExperimentDTO;
 import edu.uniandes.automatizacion.servicios.endpoint.dto.GrupoDTO;
 import edu.uniandes.automatizacion.servicios.endpoint.dto.PhaseDTO;
 
-@Mapper
+//@Mapper
 public interface ExperimentMapper {
 
 
@@ -23,9 +23,9 @@ public interface ExperimentMapper {
      */
 	ExperimentMapper INSTANCE = Mappers.getMapper(ExperimentMapper.class);
 
-	@Mappings({
+	/*@Mappings({
         @Mapping(source = "grupos", target = "grupos")
-    })
+    })*/
 	Experiment experimentDTOToExperiment(ExperimentDTO experimentDTO);
 	
 	ExperimentDTO experimentToExperimentDTO(Experiment experiment);

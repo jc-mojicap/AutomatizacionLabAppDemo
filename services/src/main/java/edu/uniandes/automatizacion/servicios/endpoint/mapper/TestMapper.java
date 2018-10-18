@@ -10,7 +10,7 @@ import org.mapstruct.factory.Mappers;
 import edu.uniandes.automatizacion.servicios.dao.model.Test;
 import edu.uniandes.automatizacion.servicios.endpoint.dto.TestDTO;
 
-@Mapper
+//@Mapper
 public interface TestMapper {
 
 	/**
@@ -23,9 +23,9 @@ public interface TestMapper {
      * @param testDTO Objeto a transformar.
      * @return Objeto transformado.
      */    
-	@Mappings({
+	/*@Mappings({
         @Mapping(source = "possibilities", target = "possibilities")
-    })
+    })*/
 	Test TestDTOToTest(TestDTO testDTO);
     
     /**
