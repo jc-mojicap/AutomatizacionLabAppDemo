@@ -7,6 +7,9 @@ import edu.uniandes.automatizacion.servicios.endpoint.dto.GrupoDTO;
 
 public interface GrupoMapper {
 
+	/**
+     * Instancia de la clase.
+     */
 	GrupoMapper INSTANCE = Mappers.getMapper(GrupoMapper.class);
 
 	Grupo grupoDTOToGrupo(GrupoDTO grupoDTO);
