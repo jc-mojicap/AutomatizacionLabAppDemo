@@ -1,0 +1,302 @@
+INSTRUCCIONES, FASE 1. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 1
+NUMEROENSAYOS, 12
+RETROALIMENTACIÓN, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PE101, P1, P1, P2, 0
+PE102, P2, P2, P3, 0
+PE103, P3, P3, P4, 0
+PE104, P4, P4, P5, 0
+PE105, P5, P5, P6, 0
+PE106, P6, P6, P1, 0
+PE107, P1, P1, P3, 0
+PE108, P2, P2, P4, 0
+PE109, P3, P3, P5, 0
+PE110, P4, P4, P6, 0
+PE111, P5, P5, P1, 0
+PE112, P6, P6, P2, 0
+INSTRUCCIONES, FASE 2. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 2
+NUMEROENSAYOS, 12
+RETROALIMENTACIÓN, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK1-201, P1, P1K1, P4, 0
+PEK1-202, P2, P2K1, P5, 0
+PEK1-203, P3, P3K1, P6, 0
+PEK1-204, P4, P4K1, P1, 0
+PEK1-205, P5, P5K1, P2, 0
+PEK1-206, P6, P6K1, P3, 0
+PEK1-207, P1, P1, P5K1, 0
+PEK1-208, P2, P2, P6K1, 0
+PEK1-209, P3, P3, P1K1, 0
+PEK1-210, P4, P4, P2K1, 0
+PEK1-211, P5, P5, P3K1, 0
+PEK1-212, P6, P6, P4K1, 0
+INSTRUCCIONES, FASE 3. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 3
+NUMEROENSAYOS, 12
+RETROALIMENTACIÓN, 1
+CRITERIO, 12
+DEVUELVE, 0
+END, 0
+PEK2-301, P1, P1K2, P6, 0
+PEK2-302, P2, P2K2, P1, 0
+PEK2-303, P3, P3K2, P2, 0
+PEK2-304, P4, P4K2, P3, 0
+PEK2-305, P5, P5K2, P4, 0
+PEK2-306, P6, P6K2, P5, 0
+PEK2-207, P1, P1, P2K2, 0
+PEK2-208, P2, P2, P3K2, 0
+PEK2-209, P3, P3, P4K2, 0
+PEK2-210, P4, P4, P5K2, 0
+PEK2-211, P5, P5, P6K2, 0
+PEK2-212, P6, P6, P1K2, 0
+INSTRUCCIONES, FASE 4. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 4
+NUMEROENSAYOS, 12
+RETROALIMENTACIÓN, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK-401, P1, P1, K, 0
+PEK-402, P2, P2, K, 0
+PEK-403, P3, P3, K, 0
+PEK-404, P4, P4, K, 0
+PEK-405, P5, P5, K, 0
+PEK-406, P6, P6, K, 0
+PEK-407, P1, K, P3, 0
+PEK-408, P2, K, P4, 0
+PEK-409, P3, K, P5, 0
+PEK-410, P4, K, P6, 0
+PEK-411, P5, K, P1, 0
+PEK-412, P6, K, P2, 0
+INSTRUCCIONES, FASE 5. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 5
+NUMEROENSAYOS, 12
+RETROALIMENTACIÓN, 1
+CRITERIO, 12
+DEVUELVE, 0
+END, 0
+LB-501, A1, B1, K, 0
+LB-502, A2, B2, K, 0
+LB-503, A1, B1, K, 0
+LB-504, A2, B2, K, 0
+LB-505, A1, B1, K, 0
+LB-506, A2, B2, K, 0
+LB-507, A2, K, B1, 0
+LB-508, A1, K, B2, 0
+LB-509, A2, K, B1, 0
+LB-510, A1, K, B2, 0
+LB-511, A2, K, B1, 0
+LB-512, A1, K, B2, 0
+INSTRUCCIONES, FASE 6. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 6
+NUMEROENSAYOS, 12
+RETROALIMENTACIÓN, 1
+CRITERIO, 12
+DEVUELVE, 0
+END, 0
+LB-601, B1, C1, K, 0
+LB-602, B2, C2, K, 0
+LB-603, B1, C1, K, 0
+LB-604, B2, C2, K, 0
+LB-605, B1, C1, K, 0
+LB-606, B2, C2, K, 0
+LB-607, B1, K, C2, 0
+LB-608, B2, K, C1, 0
+LB-609, B1, K, C2, 0
+LB-610, B2, K, C1, 0
+LB-611, B1, K, C2, 0
+LB-612, B2, K, C1, 0
+INSTRUCCIONES, FASE 7. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 7
+NUMEROENSAYOS, 24
+RETROALIMENTACIÓN, 1
+CRITERIO, 22
+REGRESA, 0
+END, 0
+LB-701, A1, B1, K, 0
+LB-702, A2, B2, K, 0
+LB-703, A1, B1, K, 0
+LB-704, A2, B2, K, 0
+LB-705, A1, B1, K, 0
+LB-706, A2, B2, K, 0
+LB-707, A2, K, B1, 0
+LB-708, A1, K, B2, 0
+LB-709, A2, K, B1, 0
+LB-710, A1, K, B2, 0
+LB-711, A2, K, B1, 0
+LB-712, A1, K, B2, 0
+LB-713, B1, C1, K, 0
+LB-714, B2, C2, K, 0
+LB-715, B1, C1, K, 0
+LB-716, B2, C2, K, 0
+LB-717, B1, C1, K, 0
+LB-718, B2, C2, K, 0
+LB-719, B1, K, C2, 0
+LB-720, B2, K, C1, 0
+LB-721, B1, K, C2, 0
+LB-722, B2, K, C1, 0
+LB-723, B1, K, C2, 0
+LB-724, B2, K, C1, 0
+INSTRUCCIONES, FASE 8. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 8
+NUMEROENSAYOS, 16
+RETROALIMENTACIÓN, 0
+CRITERIO, 16
+REGRESA, 1
+END, 0
+LB-801, A1, B1, K, 0
+LB-802, A2, B2, K, 0
+LB-803, A1, B1, K, 0
+LB-804, A2, B2, K, 0
+LB-805, A2, K, B1, 0
+LB-806, A1, K, B2, 0
+LB-807, A2, K, B1, 0
+LB-808, A1, K, B2, 0
+LB-809, B1, C1, K, 0
+LB-810, B2, C2, K, 0
+LB-811, B1, C1, K, 0
+LB-812, B2, C2, K, 0
+LB-813, B1, K, C2, 0
+LB-814, B2, K, C1, 0
+LB-815, B1, K, C2, 0
+LB-816, B2, K, C1, 0
+INSTRUCCIONES, FASE 9. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 9
+NUMEROENSAYOS, 56
+RETROALIMENTACIÓN, 0
+CRITERIO, -1
+REGRESA, 0
+END, 0
+LB-901, A1, B1, K, 0
+LB-902, A2, B2, K, 0
+LB-903, A1, B1, K, 0
+LB-904, A2, B2, K, 0
+LB-905, A1, B1, K, 0
+LB-906, A2, B2, K, 0
+LB-907, A2, K, B1, 0
+LB-908, A1, K, B2, 0
+LB-909, A2, K, B1, 0
+LB-910, A1, K, B2, 0
+LB-911, A2, K, B1, 0
+LB-912, A1, K, B2, 0
+LB-913, B1, C1, K, 0
+LB-914, B2, C2, K, 0
+LB-915, B1, C1, K, 0
+LB-916, B2, C2, K, 0
+LB-917, B1, C1, K, 0
+LB-918, B2, C2, K, 0
+LB-919, B1, K, C2, 0
+LB-920, B2, K, C1, 0
+LB-921, B1, K, C2, 0
+LB-922, B2, K, C1, 0
+LB-923, B1, K, C2, 0
+LB-924, B2, K, C1, 0
+CTP-925, A1, B1, X10, 0
+CTP-926, A2, B2, X5, 0
+CTN-927, A2, X2, B1, 0
+CTN-928, A1, X8, B2, 0
+CTP-929, B1, C1, X4, 0
+CTP-930, B2, C2, X6, 0
+CTN-931, B1, X12, C2, 0
+CTN-932, B2, X7, C1, 0
+CTP-933, A1, B1, X3, 0
+CTP-934, A2, B2, X9, 0
+CTN-935, A2, X1, B1, 0
+CTN-936, A1, X11, B2, 0
+CTP-937, B2, C2, X8, 0
+CTP-938, B1, C1, X11, 0
+CTN-939, B1, X9, C2, 0
+CTN-940, B2, X6, C1, 0
+TR-941, A1, C1, K, 0
+TR-942, A1, C1, X7, 0
+TR-943, A1, K, C2, 0
+TR-944, A1, X4, C2, 0
+TR-945, A2, C2, K, 0
+TR-946, A2, C2, X3, 0
+TR-947, A2, K, C1, 0
+TR-948, A2, X10, C1, 0
+TR-949, C1, A1, K, 0
+TR-950, C1, A1, X12, 0
+TR-951, C1, K, A2, 0
+TR-952, C1, X1, A2, 0
+TR-953, C2, A2, K, 0
+TR-954, C2, A2, X5, 0
+TR-955, C2, K, A1, 0
+TR-956, C2, X2, A1, 0
+INSTRUCCIONES, FASE 10. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 10
+NUMEROENSAYOS, 64
+RETROALIMENTACIÓN, 0
+CRITERIO, -1
+REGRESA, 0
+END, 1
+LB-1001, A1, B1, K, 0
+LB-1002, A2, B2, K, 0
+LB-1003, A1, B1, K, 0
+LB-1004, A2, B2, K, 0
+LB-1005, A1, B1, K, 0
+LB-1006, A2, B2, K, 0
+LB-1007, A2, K, B1, 0
+LB-1008, A1, K, B2, 0
+LB-1009, A2, K, B1, 0
+LB-1010, A1, K, B2, 0
+LB-1011, A2, K, B1, 0
+LB-1012, A1, K, B2, 0
+LB-1013, B1, C1, K, 0
+LB-1014, B2, C2, K, 0
+LB-1015, B1, C1, K, 0
+LB-1016, B2, C2, K, 0
+LB-1017, B1, C1, K, 0
+LB-1018, B2, C2, K, 0
+LB-1019, B1, K, C2, 0
+LB-1020, B2, K, C1, 0
+LB-1021, B1, K, C2, 0
+LB-1022, B2, K, C1, 0
+LB-1023, B1, K, C2, 0
+LB-1024, B2, K, C1, 0
+RF-1025, A1, A1, K, 0
+RF-|026, A1, A1, X6, 0
+RF-1027, A1, K, A2, 0
+RF-1028, A1, X9, A2, 0
+RF-1029, A2, A2, K, 0
+RF-1030, A2, A2, X8, 0
+RF-1031, A2, K, A1, 0
+RF-1032, A2, X12, A1, 0
+RF-1033, B1, B1, K, 0
+RF-1034, B1, B1, X10, 0
+RF-1035, B1, K, B2, 0
+RF-1036, B1, X4, B2, 0
+RF-1037, A2, B2, K, 0
+RF-1038, B2, B2, X3, 0
+RF-1039, B2, K, B1, 0
+RF-1040, B2, X2, B1, 0
+RF-1041, C1, C1, K, 0
+RF-1042, C1, C1, X5, 0
+RF-1043, C1, K, C2, 0
+RF-1044, C1, X11, C2, 0
+RF-1045, C2, C2, K, 0
+RF-1046, C2, C2, X1, 0
+RF-1047, C2, K, C1, 0
+RF-1048, C2, X7, C1, 0
+SM-1049, B1, A1, K, 0
+SM-1050, B1, A1, X9, 0
+SM-1051, B1, K, A2, 0
+SM-1052, B1, X1, A2, 0
+SM-1053, B2, A2, K, 0
+SM-1054, B2, A2, X2, 0
+SM-1055, B2, K, A1, 0
+SM-1056, B2, X5, A1, 0
+SM-1057, C1, B1, K, 0
+SM-1058, C1, B1, X3, 0
+SM-1059, C1, K, B2, 0
+SM-1060, C1, X11, B2, 0
+SM-1061, C2, B2, K, 0
+SM-1062, C2, B2, X10, 0
+SM-1063, C2, K, B2, 0
+SM-1064, C2, X7, B2, 0

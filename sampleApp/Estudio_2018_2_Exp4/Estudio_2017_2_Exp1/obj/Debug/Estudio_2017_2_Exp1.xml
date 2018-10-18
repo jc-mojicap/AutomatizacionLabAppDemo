@@ -1,0 +1,620 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Estudio_2017_2_Exp1
+</name>
+</assembly>
+<members>
+<member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources._0">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.A1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.A2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.A3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.B1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.B2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.B3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.C1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.C2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.C3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.chord">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase1">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase10">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase11">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase2">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase3">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase4">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase5">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase6">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase7">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase8">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.fase9">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_1">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 1. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 1
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PE101, P1, P1, P2, P3
+PE102, P2, P2, P3, P4
+PE103, P3, P3, P4, P5
+PE104, P4, P4, P5, P6
+PE105, P5, P5, P4, P6
+PE106, P6, P6, P3, P5
+PE107, P1, P1, P2, P3
+PE108, P2, P2, P3, P4
+PE109, P3, P3, P4, P5
+PE110, P4, P4, P5, P6
+PE111, P5, P5, P4, P6
+PE112, P6, P6, P3, P5
+INSTRUCCION [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_10">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 10. Ahora van a comenzar las fases de prueba.  En la siguiente fase se te van a presentar los mismos ejercicios pero mezclados con otros ejercicios nuevos.  En los ejercicios nuevos debes responder como creas que es correcto.  El computador no te va a decir si tus respuestas son correctas o no.  
+FASE, 10
+NUMEROENSAYOS, 36
+RETROALIMENTACION, 0
+CRITERIO, -1
+REGRESA, 0
+END, 0
+LB-1001, A1, B1, B2, 0
+LB-1002, A2, B2, B1, 0
+LB-1003, A1, B1, K, 0
+LB-1004, A2, B2, K, 0
+LB-1005, A1, K [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_2">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 2. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 2
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK1-201, P1, P1K1, P2, P3
+PEK1-202, P2, P2K1, P3, P4
+PEK1-203, P3, P3K1, P4, P5
+PEK1-204, P4, P4K1, P5, P6
+PEK1-205, P5, P5K1, P4, P6
+PEK1-206, P6, P6K1, P3, P5
+PEK1-207, P1, P1, P2K1, P3
+PEK1-208, P2, P2, P3K1, P4
+PEK1-209, P3, P3, P4K1, P5
+PEK1-210, P4, P4, P5K1, P6
+PEK1-21 [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_3">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 3. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 3
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK2-301, P1, P1K2, P2,P3
+PEK2-302, P2, P2K2, P3,P4
+PEK2-303, P3, P3K2, P4,P5
+PEK2-304, P4, P4K2, P5,P6
+PEK2-305, P5, P5K2, P4,P6
+PEK2-306, P6, P6K2, P3,P5
+PEK2-207, P1, P1, P2K2, P3
+PEK2-208, P2, P2, P3K2, P4
+PEK2-209, P3, P3, P4K2, P5
+PEK2-210, P4, P4, P5K2, P6
+PEK2-211, P5, [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_4">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 4. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 4
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK-401, P1, P1, P2, K
+PEK-402, P2, P2, P3, K
+PEK-403, P3, P3, P4, K
+PEK-404, P4, P4, P5, K
+PEK-405, P5, P5, P4, K
+PEK-406, P6, P6, P3, K
+PEK-401, P1, K, P2, P3
+PEK-402, P2, K, P3, P4
+PEK-403, P3, K, P4, P5
+PEK-404, P4, K, P5, P6
+PEK-405, P5, K, P4, P6
+PEK-406, P6, K, P3, P5
+ [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_5">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 5. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 5
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+LB-501, A1, B1, B2, 0
+LB-502, A2, B2, B1, 0
+LB-503, A1, B1, K, 0
+LB-504, A2, B2, K, 0
+LB-505, A1, K, B2, 0
+LB-506, A2, K, B1, 0
+LB-507, A1, B1, B2, 0
+LB-508, A2, B2, B1, 0
+LB-509, A1, B1, K, 0
+LB-510, A2, B2, K, 0
+LB-511, A1, K, B2, 0
+LB-512, A2, K, B1, 0
+INSTRUCCIONES, FASE [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_6">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 6. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 6
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+LB-601, A1, C1, C2, 0
+LB-602, A2, C2, C1, 0
+LB-603, A1, C1, K, 0
+LB-604, A2, C2, K, 0
+LB-605, A1, K, C2, 0
+LB-606, A2, K, C1, 0
+LB-607, A1, C1, C2, 0
+LB-608, A2, C2, C1, 0
+LB-609, A1, C1, K, 0
+LB-610, A2, C2, K, 0
+LB-611, A1, K, C2, 0
+LB-612, A2, K, C1, 0
+INSTRUCCIONES, FASE [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_7">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 7. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 7
+NUMEROENSAYOS, 24
+RETROALIMENTACION, 1
+CRITERIO, 22
+REGRESA, 0
+END, 0
+LB-701, A1, B1, B2, 0
+LB-702, A2, B2, B1, 0
+LB-703, A1, B1, K, 0
+LB-704, A2, B2, K, 0
+LB-705, A1, K, B2, 0
+LB-706, A2, K, B1, 0
+LB-707, A1, C1, C2, 0
+LB-708, A2, C2, C1, 0
+LB-709, A1, C1, K, 0
+LB-710, A2, C2, K, 0
+LB-711, A1, K, C2, 0
+LB-712, A2, K, C1, 0
+LB-713, A1, B1, B2, [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_8">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 8. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 8
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 0
+CRITERIO, 12
+REGRESA, 1
+END, 0
+LB-801, A1, B1, B2, 0
+LB-802, A2, B2, B1, 0
+LB-803, A1, B1, K, 0
+LB-804, A2, B2, K, 0
+LB-805, A1, K, B2, 0
+LB-806, A2, K, B1, 0
+LB-807, A1, C1, C2, 0
+LB-808, A2, C2, C1, 0
+LB-809, A1, C1, K, 0
+LB-810, A2, C2, K, 0
+LB-811, A1, K, C2, 0
+LB-812, A2, K, C1, 0
+INSTRUCCIONES, FASE [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_1_Fase_9">
+	<summary>
+  Busca una cadena traducida similar a IINSTRUCCIONES, FASE 9. Ahora van a comenzar las fases de prueba.  En la siguiente fase se te van a presentar los mismos ejercicios pero mezclados con otros ejercicios nuevos.  En los ejercicios nuevos debes responder como creas que es correcto.  El computador no te va a decir si tus respuestas son correctas o no.  
+FASE, 9
+NUMEROENSAYOS, 18
+RETROALIMENTACION, 0
+CRITERIO, -1
+REGRESA, 0
+END, 0
+LB-901, A1, B1, B2, 0
+LB-902, A2, B2, B1, 0
+LB-903, A1, B1, K, 0
+LB-904, A2, B2, K, 0
+LB-905, A1, K, B2,  [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_1">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 1. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 1
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PE101, P1, P1, P2, P3
+PE102, P2, P2, P3, P4
+PE103, P3, P3, P4, P5
+PE104, P4, P4, P5, P6
+PE105, P5, P5, P4, P6
+PE106, P6, P6, P3, P5
+PE107, P1, P1, P2, P3
+PE108, P2, P2, P3, P4
+PE109, P3, P3, P4, P5
+PE110, P4, P4, P5, P6
+PE111, P5, P5, P4, P6
+PE112, P6, P6, P3, P5
+INSTRUCCION [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_10">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 10. Ahora van a comenzar las fases de prueba.  En la siguiente fase se te van a presentar los mismos ejercicios pero mezclados con otros ejercicios nuevos.  En los ejercicios nuevos debes responder como creas que es correcto.  El computador no te va a decir si tus respuestas son correctas o no.  
+FASE, 10
+NUMEROENSAYOS, 20
+RETROALIMENTACION, 0
+CRITERIO, -1
+REGRESA, 0
+END, 0
+LB-1001, A1, B1, B2, 0
+LB-1002, A2, B2, B1, 0
+LB-1003, A1, B1, K, 0
+LB-1004, A2, B2, K, 0
+LB-1005, A1, K [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_2">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 2. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 2
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK1-201, P1, P1K1, P2, P3
+PEK1-202, P2, P2K1, P3, P4
+PEK1-203, P3, P3K1, P4, P5
+PEK1-204, P4, P4K1, P5, P6
+PEK1-205, P5, P5K1, P4, P6
+PEK1-206, P6, P6K1, P3, P5
+PEK1-207, P1, P1, P2K1, P3
+PEK1-208, P2, P2, P3K1, P4
+PEK1-209, P3, P3, P4K1, P5
+PEK1-210, P4, P4, P5K1, P6
+PEK1-21 [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_3">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 3. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 3
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK2-301, P1, P1K2, P2,P3
+PEK2-302, P2, P2K2, P3,P4
+PEK2-303, P3, P3K2, P4,P5
+PEK2-304, P4, P4K2, P5,P6
+PEK2-305, P5, P5K2, P4,P6
+PEK2-306, P6, P6K2, P3,P5
+PEK2-207, P1, P1, P2K2, P3
+PEK2-208, P2, P2, P3K2, P4
+PEK2-209, P3, P3, P4K2, P5
+PEK2-210, P4, P4, P5K2, P6
+PEK2-211, P5, [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_4">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 4. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 4
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+PEK-401, P1, P1, P2, K
+PEK-402, P2, P2, P3, K
+PEK-403, P3, P3, P4, K
+PEK-404, P4, P4, P5, K
+PEK-405, P5, P5, P4, K
+PEK-406, P6, P6, P3, K
+PEK-401, P1, K, P2, P3
+PEK-402, P2, K, P3, P4
+PEK-403, P3, K, P4, P5
+PEK-404, P4, K, P5, P6
+PEK-405, P5, K, P4, P6
+PEK-406, P6, K, P3, P5
+ [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_5">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 5. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 5
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+LB-501, A1, B1, B2, 0
+LB-502, A2, B2, B1, 0
+LB-503, A1, B1, K, 0
+LB-504, A2, B2, K, 0
+LB-505, A1, K, B2, 0
+LB-506, A2, K, B1, 0
+LB-507, A1, B1, B2, 0
+LB-508, A2, B2, B1, 0
+LB-509, A1, B1, K, 0
+LB-510, A2, B2, K, 0
+LB-511, A1, K, B2, 0
+LB-512, A2, K, B1, 0
+INSTRUCCIONES, FASE [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_6">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 6. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 6
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 1
+CRITERIO, 12
+REGRESA, 0
+END, 0
+LB-601, A1, C1, C2, 0
+LB-602, A2, C2, C1, 0
+LB-603, A1, C1, K, 0
+LB-604, A2, C2, K, 0
+LB-605, A1, K, C2, 0
+LB-606, A2, K, C1, 0
+LB-607, A1, C1, C2, 0
+LB-608, A2, C2, C1, 0
+LB-609, A1, C1, K, 0
+LB-610, A2, C2, K, 0
+LB-611, A1, K, C2, 0
+LB-612, A2, K, C1, 0
+INSTRUCCIONES, FASE [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_7">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 7. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 7
+NUMEROENSAYOS, 24
+RETROALIMENTACION, 1
+CRITERIO, 22
+REGRESA, 0
+END, 0
+LB-701, A1, B1, B2, 0
+LB-702, A2, B2, B1, 0
+LB-703, A1, B1, K, 0
+LB-704, A2, B2, K, 0
+LB-705, A1, K, B2, 0
+LB-706, A2, K, B1, 0
+LB-707, A1, C1, C2, 0
+LB-708, A2, C2, C1, 0
+LB-709, A1, C1, K, 0
+LB-710, A2, C2, K, 0
+LB-711, A1, K, C2, 0
+LB-712, A2, K, C1, 0
+LB-713, A1, B1, B2, [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_8">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 8. Antes de continuar haga click en el botón "reproducir instrucciones" y escuche las instrucciones por los audífonos. 
+FASE, 8
+NUMEROENSAYOS, 12
+RETROALIMENTACION, 0
+CRITERIO, 12
+REGRESA, 1
+END, 0
+LB-801, A1, B1, B2, 0
+LB-802, A2, B2, B1, 0
+LB-803, A1, B1, K, 0
+LB-804, A2, B2, K, 0
+LB-805, A1, K, B2, 0
+LB-806, A2, K, B1, 0
+LB-807, A1, C1, C2, 0
+LB-808, A2, C2, C1, 0
+LB-809, A1, C1, K, 0
+LB-810, A2, C2, K, 0
+LB-811, A1, K, C2, 0
+LB-812, A2, K, C1, 0
+INSTRUCCIONES, FASE [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.Grupo_2_Fase_9">
+	<summary>
+  Busca una cadena traducida similar a INSTRUCCIONES, FASE 9. Ahora van a comenzar las fases de prueba.  En la siguiente fase se te van a presentar los mismos ejercicios pero mezclados con otros ejercicios nuevos.  En los ejercicios nuevos debes responder como creas que es correcto.  El computador no te va a decir si tus respuestas son correctas o no.  
+FASE, 9
+NUMEROENSAYOS, 18
+RETROALIMENTACION, 0
+CRITERIO, -1
+REGRESA, 0
+END, 0
+LB-901, A1, B1, B2, 0
+LB-902, A2, B2, B1, 0
+LB-903, A1, B1, K, 0
+LB-904, A2, B2, K, 0
+LB-905, A1, K, B2, 0 [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.K">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.konrad">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.O">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P1K1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P1K2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P2K1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P2K2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P3K1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P3K2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P4">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P4K1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P4K2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P5">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P5K1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P5K2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P6">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P6K1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.P6K2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Estudio_2017_2_Exp1.My.Resources.Resources.tada">
+	<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member><member name="T:Estudio_2017_2_Exp1.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

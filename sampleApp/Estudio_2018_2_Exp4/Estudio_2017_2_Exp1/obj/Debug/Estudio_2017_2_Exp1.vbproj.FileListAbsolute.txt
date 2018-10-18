@@ -1,0 +1,40 @@
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.exe
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.pdb
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.xml
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Ejecucion_Experimento.resources
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Salida.resources
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Mensaje_Siguiente_Fase.resources
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Participante.resources
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Experimento.resources
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Resources.resources
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.vbproj.GenerateResource.Cache
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.exe
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.xml
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.pdb
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.exe.manifest
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.application
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.exe.manifest
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.application
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.exe
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.xml
+C:\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.pdb
+C:\Users\leidy.sarmiento\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.exe
+C:\Users\leidy.sarmiento\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.xml
+C:\Users\leidy.sarmiento\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.pdb
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.exe
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.xml
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.pdb
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.exe.manifest
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.application
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.exe
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.pdb
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2017_2_Exp1.xml
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Ejecucion_Experimento.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Salida.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Mensaje_Siguiente_Fase.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Participante.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Experimento.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Resources.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.vbproj.GenerateResource.Cache
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.exe.manifest
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.application
