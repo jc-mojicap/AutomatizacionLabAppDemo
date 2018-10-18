@@ -1,6 +1,8 @@
 package edu.uniandes.automatizacion.servicios.endpoint.mapper;
 
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.Mappings;
 import org.mapstruct.factory.Mappers;
 
 import edu.uniandes.automatizacion.servicios.dao.model.Phase;
@@ -14,8 +16,14 @@ public interface PhaseMapper {
      */
 	PhaseMapper INSTANCE = Mappers.getMapper(PhaseMapper.class);
 
+	@Mappings({
+        @Mapping(source = "tests", target = "tests")
+    })
 	Phase phaseDTOToPhase(PhaseDTO phaseDTO);
 	
+	@Mappings({
+        @Mapping(source = "tests", target = "tests")
+    })
 	PhaseDTO phaseToPhaseDTO(Phase phase);
 	
 }

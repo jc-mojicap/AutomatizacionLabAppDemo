@@ -3,6 +3,8 @@ package edu.uniandes.automatizacion.servicios.endpoint.mapper;
 import java.util.List;
 
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.Mappings;
 import org.mapstruct.factory.Mappers;
 
 import edu.uniandes.automatizacion.servicios.dao.model.Test;
@@ -21,6 +23,9 @@ public interface TestMapper {
      * @param testDTO Objeto a transformar.
      * @return Objeto transformado.
      */    
+	@Mappings({
+        @Mapping(source = "possibilities", target = "possibilities")
+    })
 	Test TestDTOToTest(TestDTO testDTO);
     
     /**
