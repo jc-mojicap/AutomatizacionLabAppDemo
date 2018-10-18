@@ -10,4 +10,6 @@ public interface GrupoRepository extends JpaRepository<Grupo, Integer> {
 
 	List<Grupo> findByIdGrupo(Integer idGrupo);
 	List<Grupo> findByIdExperiment(Integer idExperiment);
+	
+	
 }
