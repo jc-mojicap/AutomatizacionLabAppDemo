@@ -80,6 +80,8 @@ public class AuthFilter implements Filter {
 		 */
 		SIN_AUTH.add(new Peticion(RequestMethod.GET, "catalogo/empresa"));
 		SIN_AUTH.add(new Peticion(RequestMethod.GET, "catalogo/usuario"));
+		SIN_AUTH.add(new Peticion(RequestMethod.GET, "catalogo/test"));
+		SIN_AUTH.add(new Peticion(RequestMethod.POST, "catalogo/test"));
 		SIN_AUTH.add(new Peticion(RequestMethod.GET, "version"));
 
 	}

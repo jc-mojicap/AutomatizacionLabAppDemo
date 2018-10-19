@@ -1,5 +1,7 @@
 package edu.uniandes.automatizacion.servicios.endpoint.mapper;
 
+import java.util.List;
+
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
@@ -15,7 +17,11 @@ public interface TestMapper {
 
     Test TestDTOToTest(TestDTO testDTO);
     
+    List<Test> TestDTOsToTests(List<TestDTO> testDTOs);
+    
     TestDTO testToTestDTO(Test test);
+    
+    List<TestDTO> TestsToTestsDTOs(List<Test> test);
         
     Element elementDTOToElement(ElementDTO elementDTO);
 	

@@ -1,5 +1,7 @@
 package edu.uniandes.automatizacion.servicios.dao.model;
 
+import java.io.Serializable;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,7 +15,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="subject")
-public class Subject {
+public class Subject implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

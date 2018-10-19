@@ -1,6 +1,10 @@
 package edu.uniandes.automatizacion.servicios.endpoint.dto;
 
-public class SubjectDTO {
+import java.io.Serializable;
+
+public class SubjectDTO implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 
 	private String name;
 	private String middleName;

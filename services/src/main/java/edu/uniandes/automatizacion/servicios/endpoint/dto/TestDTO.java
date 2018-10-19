@@ -1,8 +1,11 @@
 package edu.uniandes.automatizacion.servicios.endpoint.dto;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class TestDTO {
+public class TestDTO implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 
 	private Long idTest;
 	private String name;

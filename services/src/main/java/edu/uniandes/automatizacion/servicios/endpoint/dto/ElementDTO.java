@@ -1,6 +1,10 @@
 package edu.uniandes.automatizacion.servicios.endpoint.dto;
 
-public class ElementDTO {
+import java.io.Serializable;
+
+public class ElementDTO implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 
 	private String name;
 	private String type;
