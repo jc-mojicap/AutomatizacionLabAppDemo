@@ -211,6 +211,7 @@ public class AuthFilter implements Filter {
 			}
 		}
 		//return result;
+		
 		//TODO cambiar a return result para autenticar las peticiones REST
 		return true;
 	}
