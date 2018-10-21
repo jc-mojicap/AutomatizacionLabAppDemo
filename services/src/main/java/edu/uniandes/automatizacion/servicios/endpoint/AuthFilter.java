@@ -210,7 +210,9 @@ public class AuthFilter implements Filter {
 				result = true;
 			}
 		}
-		return result;
+		//return result;
+		//TODO cambiar a return result para autenticar las peticiones REST
+		return true;
 	}
 	
 	/**

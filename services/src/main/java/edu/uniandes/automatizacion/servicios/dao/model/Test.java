@@ -43,6 +43,10 @@ public class Test implements Serializable{
 	@JoinColumn(name="id_element", referencedColumnName="id_element")
 	private List<Element> possibilities;
 
+	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinColumn(name="id_answer", referencedColumnName="id_answer")
+	private Answer selectedAnswer;
+
 	public Integer getIdTest() {
 		return idTest;
 	}
@@ -89,6 +93,14 @@ public class Test implements Serializable{
 
 	public void setPossibilities(List<Element> possibilities) {
 		this.possibilities = possibilities;
+	}
+
+	public Answer getSelectedAnswer() {
+		return selectedAnswer;
+	}
+
+	public void setSelectedAnswer(Answer selectedAnswer) {
+		this.selectedAnswer = selectedAnswer;
 	}
 
 }
