@@ -39,11 +39,11 @@ public class Test implements Serializable{
 	private Integer currentTry;
 	
 	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="id_initial", referencedColumnName="id_element")
+	@JoinColumn(name="id_test_initial", referencedColumnName="id_test")
 	private Element initial;
 	
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(name="id_element", referencedColumnName="id_element")
+	@JoinColumn(name="id_test", referencedColumnName="id_test")
 	private List<Element> possibilities;
 
 	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
