@@ -89,4 +89,11 @@ public class Experiment implements Serializable{
 	public void setPhases(List<Phase> phases) {
 		this.phases = phases;
 	}
+
+	public Experiment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
 }
