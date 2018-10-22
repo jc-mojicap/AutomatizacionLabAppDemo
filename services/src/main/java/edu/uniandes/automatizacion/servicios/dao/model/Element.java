@@ -34,6 +34,17 @@ public class Element implements Serializable{
 	
 	@Column(name="is_answer")
 	private Boolean isAnswer;
+	
+	@Column(name="is_initial")
+	private Boolean isInitial;
+	
+	public Boolean getIsInitial() {
+		return isInitial;
+	}
+
+	public void setIsInitial(Boolean isInitial) {
+		this.isInitial = isInitial;
+	}
 
 	public Integer getIdElement() {
 		return idElement;
