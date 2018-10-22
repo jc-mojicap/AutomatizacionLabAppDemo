@@ -100,7 +100,14 @@ public class ExperimentServiceImpl implements ExperimentService {
 					test.setInitial(initial);
 					
 					List<Element> testElements = new ArrayList<Element>();
-					testElements.add(initial);
+					Element initialAnswer = new Element();
+					initialAnswer.setIsAnswer(true);
+					initialAnswer.setName(literal);
+					initialAnswer.setPathImage(literal+".JPG");
+					initialAnswer.setType("IMAGE");
+					
+					testElements.add(initialAnswer);
+					
 					for (int j=1; j<=2; j++) {
 						Element option = new Element();
 						option.setIsAnswer(false);
