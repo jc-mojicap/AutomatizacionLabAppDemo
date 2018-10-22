@@ -107,11 +107,13 @@ public class ExperimentServiceImpl implements ExperimentService {
 					initialAnswer.setName(literal);
 					initialAnswer.setPathImage(literal+".JPG");
 					initialAnswer.setType("IMAGE");
+					initialAnswer.setIsInitial(false);
 					testElements.add(initialAnswer);
 					
 					for (int j=1; j<=2; j++) {
 						Element option = new Element();
 						option.setIsAnswer(false);
+						initialAnswer.setIsInitial(false);
 						String literalOption =this.returnRandomElementLiteral();
 						if(literalOption.equalsIgnoreCase("A")||
 								literalOption.equalsIgnoreCase("B")||
