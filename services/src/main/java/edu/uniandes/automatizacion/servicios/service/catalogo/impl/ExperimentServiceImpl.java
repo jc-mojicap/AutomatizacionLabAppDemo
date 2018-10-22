@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import edu.uniandes.automatizacion.servicios.dao.catalogo.iface.ExperimentRepository;
+import edu.uniandes.automatizacion.servicios.dao.model.Answer;
 import edu.uniandes.automatizacion.servicios.dao.model.Element;
 import edu.uniandes.automatizacion.servicios.dao.model.Experiment;
 import edu.uniandes.automatizacion.servicios.dao.model.Grupo;
@@ -97,12 +98,38 @@ public class ExperimentServiceImpl implements ExperimentService {
 					
 					test.setInitial(initial);
 					
+					List<Element> testElements = new ArrayList<Element>();
+					testElements.add(initial);
+					for (int j=1; j<=2; j++) {
+						Element option = new Element();
+						option.setIsAnswer(false);
+						String literalOption =this.returnRandomElementLiteral();
+						if(literalOption.equalsIgnoreCase("A")||
+								literalOption.equalsIgnoreCase("B")||
+								literalOption.equalsIgnoreCase("C")
+							) {
+							literalOption=literalOption+this.returnRandomNumberABC();
+						} else if( literalOption.equalsIgnoreCase("X")) {
+							literalOption=literalOption+this.returnRandomNumberX();
+						} else if(literalOption.equalsIgnoreCase("P")) {
+							literalOption=literalOption+this.returnRandomNumberP();
+						} else if (literalOption.equalsIgnoreCase("N")) {
+							literalOption=literalOption+this.returnRandomNumberN();
+						}
+						
+						option.setName(literalOption);
+						option.setType("IMAGE");
+						option.setPathImage(literalOption+".JPG");
+						testElements.add(option);
+					}
 					
-				}
+					test.setPossibilities(testElements);
+					Answer answer = new Answer();
+					test.setSelectedAnswer(answer);
+				} // fin test 
 				
 				phase.setTests(phaseTests);
 			}
-			
 			
 			
 			experimentRepository.save(experimento);
