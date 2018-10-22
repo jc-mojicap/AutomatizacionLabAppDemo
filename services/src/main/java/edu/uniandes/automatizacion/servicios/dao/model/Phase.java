@@ -44,19 +44,19 @@ public class Phase implements Serializable{
 	@Column(name="tries")
 	private Integer tries;
 	
-	@JoinColumn(name = "next_phase", referencedColumnName = "id_phase", nullable = false)
+	@JoinColumn(name = "next_phase", referencedColumnName = "id_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase nextPhase;
 	
-	@JoinColumn(name = "previous_phase", referencedColumnName = "id_phase", nullable = false)
+	@JoinColumn(name = "previous_phase", referencedColumnName = "id_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase previousPhase;
 	
-	@JoinColumn(name = "next_success", referencedColumnName = "id_phase", nullable = false)
+	@JoinColumn(name = "next_success", referencedColumnName = "id_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase nextSuccess;
 	
-	@JoinColumn(name = "id_phase", referencedColumnName = "id_phase", nullable = false)
+	@JoinColumn(name = "id_phase", referencedColumnName = "id_phase", nullable = true)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Test> tests;
 
