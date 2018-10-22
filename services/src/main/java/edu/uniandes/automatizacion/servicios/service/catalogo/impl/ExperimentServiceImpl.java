@@ -127,6 +127,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 					test.setPossibilities(testElements);
 					Answer answer = new Answer();
 					test.setSelectedAnswer(answer);
+					phaseTests.add(test);
 				} // fin test 
 				
 				phase.setTests(phaseTests);
