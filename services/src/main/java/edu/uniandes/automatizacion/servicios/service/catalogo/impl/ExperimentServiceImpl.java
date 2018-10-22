@@ -17,6 +17,7 @@ import edu.uniandes.automatizacion.servicios.dao.model.Phase;
 import edu.uniandes.automatizacion.servicios.dao.model.Test;
 import edu.uniandes.automatizacion.servicios.service.catalogo.iface.ExperimentService;
 
+
 @Service
 public class ExperimentServiceImpl implements ExperimentService {
 
@@ -131,7 +132,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 				phase.setTests(phaseTests);
 			}
 			
-			
+			experimento.setPhases(experimentPhases);
 			experimentRepository.save(experimento);
 			
 			
