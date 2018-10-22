@@ -14,7 +14,7 @@ public interface TestService {
 	
 	Test crearTest(Test test);
 	
-	void enviarRespuesta(Answer respuesta);
+	Test enviarRespuesta(Test test);
 	
 	Element obtenerSiguientePregunta();
 	

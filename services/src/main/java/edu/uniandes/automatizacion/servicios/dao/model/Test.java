@@ -35,6 +35,9 @@ public class Test implements Serializable{
 	@Column(name="tries")
 	private Integer tries;
 	
+	@Column(name="current_try")
+	private Integer currentTry;
+	
 	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinColumn(name="id_element", referencedColumnName="id_element")
 	private Element initial;
@@ -101,6 +104,14 @@ public class Test implements Serializable{
 
 	public void setSelectedAnswer(Answer selectedAnswer) {
 		this.selectedAnswer = selectedAnswer;
+	}
+
+	public Integer getCurrentTry() {
+		return currentTry;
+	}
+
+	public void setCurrentTry(Integer currentTry) {
+		this.currentTry = currentTry;
 	}
 
 }
