@@ -204,5 +204,35 @@ public class ExperimentServiceImpl implements ExperimentService {
 		elementNumber  = rand.nextInt(6) + 1;
 		return elementNumber;
 	}
+
+
+	@Override
+	public Test sendTestAnswer(Test test) {
+		if (test == null){
+			return null;
+		}
+		Element respCorrecta = null;
+		System.out.println("test.getPossibilities() size " + test.getPossibilities().size());
+		for (Element element : test.getPossibilities()) {
+			if (element.getIsAnswer()){
+				respCorrecta = element;
+				break;
+			}
+		}
+		System.out.println("respCorrecta " + respCorrecta);
+		if (respCorrecta == null){
+			return null;
+		}
+		System.out.println("selectedAns " + test.getSelectedAnswer());
+		if(test.getSelectedAnswer().getName().equals(respCorrecta.getName())){
+			return siguienteTest(test);
+		}
+		return test;
+	}
+	
+	private Test siguienteTest(Test test){
+		//TODO enviar test de la siguiente iteracion
+		return test;
+	}
 	
 }
