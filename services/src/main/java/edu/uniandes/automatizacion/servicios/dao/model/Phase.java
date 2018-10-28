@@ -32,29 +32,22 @@ public class Phase implements Serializable{
 	@Column(name="instructions")
 	private String instructions;
 	
-	@Column(name="instructions_sound_path")
-	private String instructionsSoundPath;
-	
-	@Column(name="position")
-	private Integer position;
-	
 	@Column(name="is_repeatable")
 	private Boolean isRepeatable;
 	
 	@Column(name="tries")
 	private Integer tries;
 	
-	@JoinColumn(name = "next_phase", referencedColumnName = "id_phase", nullable = true)
+	@Column(name="position")
+	private Integer hits;
+	
+	@JoinColumn(name = "next_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase nextPhase;
 	
-	@JoinColumn(name = "previous_phase", referencedColumnName = "id_phase", nullable = true)
+	@JoinColumn(name = "previous_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase previousPhase;
-	
-	@JoinColumn(name = "next_success", referencedColumnName = "id_phase", nullable = true)
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private Phase nextSuccess;
 	
 	@JoinColumn(name = "id_phase", referencedColumnName = "id_phase", nullable = true)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -84,22 +77,6 @@ public class Phase implements Serializable{
 		this.instructions = instructions;
 	}
 
-	public String getInstructionsSoundPath() {
-		return instructionsSoundPath;
-	}
-
-	public void setInstructionsSoundPath(String instructionsSoundPath) {
-		this.instructionsSoundPath = instructionsSoundPath;
-	}
-
-	public Integer getPosition() {
-		return position;
-	}
-
-	public void setPosition(Integer position) {
-		this.position = position;
-	}
-
 	public Boolean getIsRepeatable() {
 		return isRepeatable;
 	}
@@ -116,28 +93,12 @@ public class Phase implements Serializable{
 		this.tries = tries;
 	}
 
-	public Phase getNextPhase() {
-		return nextPhase;
+	public Integer getHits() {
+		return hits;
 	}
 
-	public void setNextPhase(Phase nextPhase) {
-		this.nextPhase = nextPhase;
-	}
-
-	public Phase getPreviousPhase() {
-		return previousPhase;
-	}
-
-	public void setPreviousPhase(Phase previousPhase) {
-		this.previousPhase = previousPhase;
-	}
-
-	public Phase getNextSuccess() {
-		return nextSuccess;
-	}
-
-	public void setNextSuccess(Phase nextSuccess) {
-		this.nextSuccess = nextSuccess;
+	public void setHits(Integer hits) {
+		this.hits = hits;
 	}
 
 	public List<Test> getTests() {
@@ -147,4 +108,5 @@ public class Phase implements Serializable{
 	public void setTests(List<Test> tests) {
 		this.tests = tests;
 	}
+	
 }
