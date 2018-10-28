@@ -108,5 +108,21 @@ public class Phase implements Serializable{
 	public void setTests(List<Test> tests) {
 		this.tests = tests;
 	}
+
+	public Phase getNextPhase() {
+		return nextPhase;
+	}
+
+	public void setNextPhase(Phase nextPhase) {
+		this.nextPhase = nextPhase;
+	}
+
+	public Phase getPreviousPhase() {
+		return previousPhase;
+	}
+
+	public void setPreviousPhase(Phase previousPhase) {
+		this.previousPhase = previousPhase;
+	}
 	
 }

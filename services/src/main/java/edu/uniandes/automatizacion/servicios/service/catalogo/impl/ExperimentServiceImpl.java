@@ -56,10 +56,9 @@ public class ExperimentServiceImpl implements ExperimentService {
 			for(int i =1; i<=phaseLimit; i++) {
 				Phase phase = new Phase();
 				phase.setInstructions("Instrucciones fase "+i);
-				phase.setInstructionsSoundPath("FASE"+i+".WAV");
+				phase.setInstructions("FASE"+i+".WAV");
 				phase.setIsRepeatable(true);
 				phase.setName("Fase "+i);
-				phase.setPosition(i);
 				phase.setTries(2);
 				experimentPhases.add(phase);
 			}
@@ -72,7 +71,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 				List<Test> phaseTests = new ArrayList<Test>();
 				for(int i =1; i<=this.returnRandomTestQuantity(); i++) {
 					Test test = new Test();
-					test.setName("T"+i+"P"+phase.getPosition());
+					test.setName("T"+i+phase.getName());
 					test.setIsRepeatable(true);
 					test.setTries(2);
 					
@@ -137,6 +136,27 @@ public class ExperimentServiceImpl implements ExperimentService {
 				} // fin test 
 				
 				phase.setTests(phaseTests);
+			}
+			
+			int cuentaFases = 1; 
+			Phase phaseAux = new Phase();
+			for(Phase phase: experimentPhases) {
+				for(Phase phase1: experimentPhases) {
+					if(!phase.getName().equalsIgnoreCase(phase1.getName())) {
+						if(cuentaFases<2) {
+							phase.setNextPhase(phase1);	
+						}else {
+							if(cuentaFases == experimentPhases.size()) {
+								phase.setPreviousPhase(phaseAux);	
+							}else {
+								phase.setPreviousPhase(phaseAux);
+								phase.setNextPhase(phase1);	
+							}
+						}
+					}
+				}
+				phaseAux = phase;
+				cuentaFases++;
 			}
 			
 			experimento.setPhases(experimentPhases);
