@@ -41,6 +41,9 @@ public class Phase implements Serializable{
 	@Column(name="position")
 	private Integer hits;
 	
+	@Column(name="audio_instrution")
+	private String audioInstrution;
+	
 	@JoinColumn(name = "next_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Phase nextPhase;
@@ -101,6 +104,14 @@ public class Phase implements Serializable{
 		this.hits = hits;
 	}
 
+	public String getAudioInstrution() {
+		return audioInstrution;
+	}
+
+	public void setAudioInstrution(String audioInstrution) {
+		this.audioInstrution = audioInstrution;
+	}
+	
 	public List<Test> getTests() {
 		return tests;
 	}
