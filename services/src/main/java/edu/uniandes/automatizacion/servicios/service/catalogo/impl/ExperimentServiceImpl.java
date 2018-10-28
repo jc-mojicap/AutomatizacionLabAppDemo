@@ -144,20 +144,20 @@ public class ExperimentServiceImpl implements ExperimentService {
 			Phase phaseAux = new Phase();
 			for(Phase phase: experimentPhases) {
 				for(Phase phase1: experimentPhases) {
-					if(!phase.getName().equalsIgnoreCase(phase1.getName())) {
-						if(cuentaFases<2) {
-							phase.setNextPhase(phase1);	
-						}else {
-							if(cuentaFases == experimentPhases.size()) {
-								phase.setPreviousPhase(phaseAux);	
-							}else {
-								phase.setPreviousPhase(phaseAux);
+						if (cuentaFases< cuentaAux) {
+							if(cuentaFases<2) {
 								phase.setNextPhase(phase1);	
+							}else {
+								if(cuentaFases == experimentPhases.size()) {
+									phase.setPreviousPhase(phaseAux);	
+								}else {
+									phase.setPreviousPhase(phaseAux);
+									phase.setNextPhase(phase1);	
+								}
 							}
 						}
+						cuentaAux++;
 					}
-					cuentaAux++;
-				}
 				phaseAux = phase;
 				cuentaFases++;
 			}
