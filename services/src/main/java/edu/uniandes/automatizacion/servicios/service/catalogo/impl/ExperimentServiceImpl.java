@@ -15,6 +15,7 @@ import edu.uniandes.automatizacion.servicios.dao.model.Experiment;
 import edu.uniandes.automatizacion.servicios.dao.model.Grupo;
 import edu.uniandes.automatizacion.servicios.dao.model.Phase;
 import edu.uniandes.automatizacion.servicios.dao.model.Test;
+import edu.uniandes.automatizacion.servicios.dao.model.Type;
 import edu.uniandes.automatizacion.servicios.service.catalogo.iface.ExperimentService;
 
 
@@ -92,7 +93,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 						literal=literal+this.returnRandomNumberN();
 					}		
 					initial.setName(literal);
-					initial.setType("IMAGE");
+					initial.setType(Type.IMAGE);
 					initial.setPath(literal+".JPG");
 					
 					List<Element> testElements = new ArrayList<Element>();
@@ -103,7 +104,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 					initialAnswer.setIsAnswer(true);
 					initialAnswer.setName(literal);
 					initialAnswer.setPath(literal+".JPG");
-					initialAnswer.setType("IMAGE");
+					initialAnswer.setType(Type.IMAGE);
 					testElements.add(initialAnswer);
 					
 					for (int j=1; j<=2; j++) {
@@ -124,7 +125,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 						}
 						
 						option.setName(literalOption);
-						option.setType("IMAGE");
+						option.setType(Type.IMAGE);
 						option.setPath(literalOption+".JPG");
 						testElements.add(option);
 					}
