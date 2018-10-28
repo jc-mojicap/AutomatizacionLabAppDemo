@@ -140,25 +140,20 @@ public class ExperimentServiceImpl implements ExperimentService {
 			}
 			
 			int cuentaFases = 1; 
-			int cuentaAux =1;
+			
 			Phase phaseAux = new Phase();
 			for(Phase phase: experimentPhases) {
-				for(Phase phase1: experimentPhases) {
-						if (cuentaFases< cuentaAux) {
-							if(cuentaFases<2) {
-								phase.setNextPhase(phase1);	
-							}else {
-								if(cuentaFases == experimentPhases.size()) {
-									phase.setPreviousPhase(phaseAux);	
-								}else {
-									phase.setPreviousPhase(phaseAux);
-									phase.setNextPhase(phase1);	
-								}
-							}
-						}
-						cuentaAux++;
+				if(cuentaFases<2) {
+					phase.setNextPhase(experimentPhases.get(cuentaFases+1));
+				} else {
+					if(cuentaFases == experimentPhases.size()) {
+						phase.setPreviousPhase(experimentPhases.get(cuentaFases));
+					}else {
+						phase.setPreviousPhase(experimentPhases.get(cuentaFases));
+						phase.setNextPhase(experimentPhases.get(cuentaFases+1));
 					}
-				phaseAux = phase;
+					
+				}
 				cuentaFases++;
 			}
 			
