@@ -139,14 +139,13 @@ public class ExperimentServiceImpl implements ExperimentService {
 				phase.setTests(phaseTests);
 			}
 			
-			int cuentaFases = 1; 
+			int cuentaFases = 0; 
 			
-			Phase phaseAux = new Phase();
 			for(Phase phase: experimentPhases) {
-				if(cuentaFases<2) {
+				if(cuentaFases<1) {
 					phase.setNextPhase(experimentPhases.get(cuentaFases+1));
 				} else {
-					if(cuentaFases == experimentPhases.size()) {
+					if(cuentaFases == experimentPhases.size()-1) {
 						phase.setPreviousPhase(experimentPhases.get(cuentaFases));
 					}else {
 						phase.setPreviousPhase(experimentPhases.get(cuentaFases));
@@ -158,7 +157,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			}
 			
 			experimento.setPhases(experimentPhases);
-			experimentRepository.save(experimento);
+			//experimentRepository.save(experimento);
 			
 			
 		} catch(Exception e) {
