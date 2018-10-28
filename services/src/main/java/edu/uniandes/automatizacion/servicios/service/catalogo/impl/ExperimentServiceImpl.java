@@ -56,7 +56,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			for(int i =1; i<=phaseLimit; i++) {
 				Phase phase = new Phase();
 				phase.setInstructions("Instrucciones fase "+i);
-				phase.setInstructions("FASE"+i+".WAV");
+				phase.setAudioInstrution("FASE"+i+".WAV");
 				phase.setIsRepeatable(true);
 				phase.setName("Fase "+i);
 				phase.setTries(2);
@@ -139,6 +139,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			}
 			
 			int cuentaFases = 1; 
+			int cuentaAux =1;
 			Phase phaseAux = new Phase();
 			for(Phase phase: experimentPhases) {
 				for(Phase phase1: experimentPhases) {
@@ -154,6 +155,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 							}
 						}
 					}
+					cuentaAux++;
 				}
 				phaseAux = phase;
 				cuentaFases++;
