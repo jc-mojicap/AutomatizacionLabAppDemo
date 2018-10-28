@@ -32,9 +32,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			experimento.setName("Experimento de muestra");
 			experimento.setDescription("Experimento de muestra para clase automatización");
 			experimento.setStatus("A");
-			
-			
-			
+
 			Grupo grupo = new Grupo();
 			grupo.setDescription("Grupo 1 de sujetos de prueba");
 			grupo.setName("Grupo 1");
@@ -53,8 +51,9 @@ public class ExperimentServiceImpl implements ExperimentService {
 			
 			
 			List<Phase> experimentPhases = new ArrayList<Phase>();
+			Integer phaseLimit = this.returnRandomPhaseQuantity();
 			
-			for(int i =1; i<=9; i++) {
+			for(int i =1; i<=phaseLimit; i++) {
 				Phase phase = new Phase();
 				phase.setInstructions("Instrucciones fase "+i);
 				phase.setInstructionsSoundPath("FASE"+i+".WAV");
@@ -95,25 +94,22 @@ public class ExperimentServiceImpl implements ExperimentService {
 					}		
 					initial.setName(literal);
 					initial.setType("IMAGE");
-					initial.setPathImage(literal+".JPG");
-					initial.setIsInitial(true);
+					initial.setPath(literal+".JPG");
 					
 					List<Element> testElements = new ArrayList<Element>();
 					
-					testElements.add(initial);
+					test.setInitial(initial);
 					
 					Element initialAnswer = new Element();
 					initialAnswer.setIsAnswer(true);
 					initialAnswer.setName(literal);
-					initialAnswer.setPathImage(literal+".JPG");
+					initialAnswer.setPath(literal+".JPG");
 					initialAnswer.setType("IMAGE");
-					initialAnswer.setIsInitial(false);
 					testElements.add(initialAnswer);
 					
 					for (int j=1; j<=2; j++) {
 						Element option = new Element();
 						option.setIsAnswer(false);
-						initialAnswer.setIsInitial(false);
 						String literalOption =this.returnRandomElementLiteral();
 						if(literalOption.equalsIgnoreCase("A")||
 								literalOption.equalsIgnoreCase("B")||
@@ -130,7 +126,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 						
 						option.setName(literalOption);
 						option.setType("IMAGE");
-						option.setPathImage(literalOption+".JPG");
+						option.setPath(literalOption+".JPG");
 						testElements.add(option);
 					}
 					
@@ -158,6 +154,13 @@ public class ExperimentServiceImpl implements ExperimentService {
 		Integer quantity = 1;
 		Random rand = new Random();
 		quantity  = rand.nextInt(20) + 1;
+		return quantity;
+	}
+	
+	public Integer returnRandomPhaseQuantity() {
+		Integer quantity = 1;
+		Random rand = new Random();
+		quantity  = rand.nextInt(10) + 1;
 		return quantity;
 	}
 

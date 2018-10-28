@@ -31,6 +31,15 @@ public class Experiment implements Serializable{
 	@Column(name="description")
 	private String description;
 	
+	@Column(name="correctAnswerAudio")
+	private String correctAnswerAudio;
+	
+	@Column(name="incorrectAnswerAudio")
+	private String incorrectAnswerAudio;
+	
+	@Column(name="instructions")
+	private String instructions;
+	
 	@Column(name="status")
 	private String status;
 	
@@ -42,6 +51,11 @@ public class Experiment implements Serializable{
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Phase> phases;
 
+	public Experiment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Integer getIdExperiment() {
 		return idExperiment;
 	}
@@ -90,10 +104,28 @@ public class Experiment implements Serializable{
 		this.phases = phases;
 	}
 
-	public Experiment() {
-		super();
-		// TODO Auto-generated constructor stub
+	public String getCorrectAnswerAudio() {
+		return correctAnswerAudio;
 	}
-	
-	
+
+	public void setCorrectAnswerAudio(String correctAnswerAudio) {
+		this.correctAnswerAudio = correctAnswerAudio;
+	}
+
+	public String getIncorrectAnswerAudio() {
+		return incorrectAnswerAudio;
+	}
+
+	public void setIncorrectAnswerAudio(String incorrectAnswerAudio) {
+		this.incorrectAnswerAudio = incorrectAnswerAudio;
+	}
+
+	public String getInstructions() {
+		return instructions;
+	}
+
+	public void setInstructions(String instructions) {
+		this.instructions = instructions;
+	}
+
 }

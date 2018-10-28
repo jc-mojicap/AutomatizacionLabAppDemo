@@ -26,25 +26,12 @@ public class Element implements Serializable{
 	@Column(name="type")
 	private String type;
 	
-	@Column(name="path_image")
-	private String pathImage;
-	
-	@Column(name="path_sound")
-	private String pathSound;
+	@Column(name="path")
+	private String path;
 	
 	@Column(name="is_answer")
 	private Boolean isAnswer;
 	
-	@Column(name="is_initial")
-	private Boolean isInitial;
-	
-	public Boolean getIsInitial() {
-		return isInitial;
-	}
-
-	public void setIsInitial(Boolean isInitial) {
-		this.isInitial = isInitial;
-	}
 
 	public Integer getIdElement() {
 		return idElement;
@@ -70,28 +57,20 @@ public class Element implements Serializable{
 		this.type = type;
 	}
 
-	public String getPathImage() {
-		return pathImage;
-	}
-
-	public void setPathImage(String pathImage) {
-		this.pathImage = pathImage;
-	}
-
-	public String getPathSound() {
-		return pathSound;
-	}
-
-	public void setPathSound(String pathSound) {
-		this.pathSound = pathSound;
-	}
-
 	public Boolean getIsAnswer() {
 		return isAnswer;
 	}
 
 	public void setIsAnswer(Boolean isAnswer) {
 		this.isAnswer = isAnswer;
+	}
+
+	public String getPath() {
+		return path;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
 	}
 	
 }
