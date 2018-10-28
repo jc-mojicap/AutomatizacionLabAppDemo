@@ -15,6 +15,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @Table(name="phase")
 public class Phase implements Serializable{
@@ -46,10 +48,12 @@ public class Phase implements Serializable{
 	
 	@JoinColumn(name = "next_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JsonBackReference
 	private Phase nextPhase;
 	
 	@JoinColumn(name = "previous_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JsonBackReference
 	private Phase previousPhase;
 	
 	@JoinColumn(name = "id_phase", referencedColumnName = "id_phase", nullable = true)

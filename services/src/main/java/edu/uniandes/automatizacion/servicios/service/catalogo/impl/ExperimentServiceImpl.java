@@ -141,7 +141,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			
 			int cuentaFases = 0; 
 			
-			for(Phase phase: experimentPhases) {
+			/*for(Phase phase: experimentPhases) {
 				if(cuentaFases<1) {
 					phase.setNextPhase(experimentPhases.get(cuentaFases+1));
 				} else {
@@ -154,10 +154,19 @@ public class ExperimentServiceImpl implements ExperimentService {
 					
 				}
 				cuentaFases++;
+			}*/
+			
+			for (int i = 0, j = 1, temp = -1; i < experimentPhases.size() - 1; i++, j++, temp++){
+				if (i <= experimentPhases.size() - 1){
+					experimentPhases.get(i).setNextPhase(experimentPhases.get(j));
+				}
+				if (i != 0){
+					experimentPhases.get(i).setPreviousPhase(experimentPhases.get(temp));
+				}
 			}
 			
 			experimento.setPhases(experimentPhases);
-			//experimentRepository.save(experimento);
+			experimentRepository.save(experimento);
 			
 			
 		} catch(Exception e) {
