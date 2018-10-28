@@ -60,7 +60,7 @@ public class TestServiceImpl implements TestService {
 		phase1Test1.setName("phase1Test1");
 		Element initial = new Element();
 		initial.setName("initial");
-		initial.setPathImage("/main/webapp/estimulos/A1.JPG");
+		initial.setPath("/main/webapp/estimulos/A1.JPG");
 		
 		
 		return false;

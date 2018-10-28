@@ -38,6 +38,9 @@ public class Test implements Serializable{
 	@Column(name="current_try")
 	private Integer currentTry;
 	
+	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinColumn(name="id_test", referencedColumnName="id_test", nullable=true)
+	private Element initial; 
 	
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinColumn(name="id_test", referencedColumnName="id_test", nullable=true)
@@ -101,6 +104,14 @@ public class Test implements Serializable{
 
 	public void setCurrentTry(Integer currentTry) {
 		this.currentTry = currentTry;
+	}
+
+	public Element getInitial() {
+		return initial;
+	}
+
+	public void setInitial(Element initial) {
+		this.initial = initial;
 	}
 
 }
