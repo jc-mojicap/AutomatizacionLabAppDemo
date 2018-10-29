@@ -14,6 +14,7 @@ import edu.uniandes.automatizacion.servicios.dao.model.Element;
 import edu.uniandes.automatizacion.servicios.dao.model.Experiment;
 import edu.uniandes.automatizacion.servicios.dao.model.Grupo;
 import edu.uniandes.automatizacion.servicios.dao.model.Phase;
+import edu.uniandes.automatizacion.servicios.dao.model.Subject;
 import edu.uniandes.automatizacion.servicios.dao.model.Test;
 import edu.uniandes.automatizacion.servicios.dao.model.Type;
 import edu.uniandes.automatizacion.servicios.service.catalogo.iface.ExperimentService;
@@ -44,9 +45,17 @@ public class ExperimentServiceImpl implements ExperimentService {
 			grupo2.setName("Grupo 2");
 			grupo2.setStatus("A");
 			
+			List<Subject> subjects = new ArrayList<Subject>();
+			Subject subject = new Subject();
+			subject.setAge(30);
+			subject.setName("Nombre sujeto pruebas");
+			subjects.add(subject);
+			grupo.setSubjects(subjects);
+			
 			List<Grupo> experimentGroups = new ArrayList<Grupo>();
 			experimentGroups.add(grupo);
 			experimentGroups.add(grupo2);
+			
 			
 			experimento.setGrupos(experimentGroups);
 			
