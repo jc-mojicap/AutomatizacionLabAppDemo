@@ -46,8 +46,7 @@ public class Answer implements Serializable{
 	private boolean correct;
 	
 	@Column(name="reaction_time")
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date reactionTime;
+	private double reactionTime;
 
 	public Integer getIdAnswer() {
 		return idAnswer;
@@ -113,11 +112,11 @@ public class Answer implements Serializable{
 		this.correct = correct;
 	}
 
-	public Date getReactionTime() {
+	public double getReactionTime() {
 		return reactionTime;
 	}
 
-	public void setReactionTime(Date reactionTime) {
+	public void setReactionTime(double reactionTime) {
 		this.reactionTime = reactionTime;
 	}
 
