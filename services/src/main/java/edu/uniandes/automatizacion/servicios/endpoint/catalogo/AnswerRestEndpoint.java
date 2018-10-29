@@ -24,7 +24,7 @@ public class AnswerRestEndpoint {
    
     
     @RequestMapping(value = "/" + MODULO + "/" + ENTIDAD, method = RequestMethod.POST)
-    public Answer postExperiment(Answer answer) throws URISyntaxException {
+    public Answer postAnswer( @RequestBody Answer answer) throws URISyntaxException {
     	return answerService.enviarRespuesta(answer);
     }
 
