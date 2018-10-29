@@ -1,0 +1,71 @@
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.exe.manifest
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.application
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.exe
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.pdb
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.xml
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.vbproj.GenerateResource.Cache
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.exe.manifest
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.application
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.exe
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.xml
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.pdb
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.Ejecucion_Experimento.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.Salida.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.Mensaje_Siguiente_Fase.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.Datos_Participante.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.Datos_Experimento.resources
+C:\Users\ivand.criollop\Documents\Historial 2017 - 2\Experimento - Estudio 2017-2 Exp_1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.Resources.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.exe
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.xml
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.pdb
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.exe.manifest
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.application
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.exe
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.pdb
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp1.xml
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Ejecucion_Experimento.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Salida.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Mensaje_Siguiente_Fase.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Participante.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Experimento.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Resources.resources
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.vbproj.GenerateResource.Cache
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.exe.manifest
+C:\Users\ivand.criollop\Desktop\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.application
+C:\Users\ivand.criollop\Documents\Historial 2018 - 1\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.exe
+C:\Users\ivand.criollop\Documents\Historial 2018 - 1\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.xml
+C:\Users\ivand.criollop\Documents\Historial 2018 - 1\Experimento 2018 Exp 1\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.pdb
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.exe.manifest
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.application
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.exe
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.pdb
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.xml
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Ejecucion_Experimento.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Salida.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Mensaje_Siguiente_Fase.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Participante.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Experimento.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Resources.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.vbproj.GenerateResource.Cache
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.exe.manifest
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.application
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.exe
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.xml
+C:\Users\ivand.criollop\Desktop\2018-2\Experimento 2018 Exp 2\Estudio_2018_2_Exp\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.pdb
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.exe
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.xml
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.pdb
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.exe.manifest
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.application
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.exe
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.pdb
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\bin\Debug\Estudio_2018_1_Exp4.xml
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Ejecucion_Experimento.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Salida.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Mensaje_Siguiente_Fase.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Participante.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Datos_Experimento.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2017_2_Exp1.Resources.resources
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp1.vbproj.GenerateResource.Cache
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.exe.manifest
+C:\Users\ivand.criollop\Desktop\2018-2\Estudio_2018_2_Exp4\Estudio_2017_2_Exp1\obj\Debug\Estudio_2018_1_Exp4.application

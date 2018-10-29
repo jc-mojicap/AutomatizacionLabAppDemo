@@ -1,0 +1,1 @@
+Aplicación de apoyo a estímulos de ejemplo en visual .NET
