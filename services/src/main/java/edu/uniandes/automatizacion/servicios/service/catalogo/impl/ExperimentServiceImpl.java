@@ -157,7 +157,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			}
 			
 			experimento.setPhases(experimentPhases);
-			//experimentRepository.save(experimento);
+			experimentRepository.save(experimento);
 			
 			
 		} catch(Exception e) {
