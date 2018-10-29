@@ -139,9 +139,9 @@ public class ExperimentServiceImpl implements ExperimentService {
 				phase.setTests(phaseTests);
 			}
 			
-			int cuentaFases = 0; 
+			/*int cuentaFases = 0; 
 			
-			/*for(Phase phase: experimentPhases) {
+			for(Phase phase: experimentPhases) {
 				if(cuentaFases<1) {
 					phase.setNextPhase(experimentPhases.get(cuentaFases+1));
 				} else {
