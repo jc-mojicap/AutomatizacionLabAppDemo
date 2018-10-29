@@ -253,7 +253,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			return null;
 		}
 		System.out.println("selectedAns " + test.getSelectedAnswer());
-		if(test.getSelectedAnswer().getName().equals(respCorrecta.getName())){
+		if(test.getSelectedAnswer().isCorrect()){
 			return siguienteTest(test);
 		}
 		return test;
