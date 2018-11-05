@@ -49,9 +49,7 @@ public class Phase implements Serializable{
 	@Column(name="has_feedback_sound")
 	private Boolean hasFeedbackSound;
 	
-	@JoinColumn(name="previous_phase_on_error", nullable=true)
-	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JsonBackReference
+	@Column(name="previous_phase_on_error")
 	private Boolean previousPhaseOnError;
 	
 	@JoinColumn(name = "next_phase", nullable = true)
