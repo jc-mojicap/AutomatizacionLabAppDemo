@@ -66,7 +66,7 @@ public class ExperimentServiceImpl implements ExperimentService {
 			for(int i =1; i<=phaseLimit; i++) {
 				Phase phase = new Phase();
 				phase.setInstructions("Instrucciones fase "+i);
-				phase.setAudioInstrution("FASE"+i+".WAV");
+				phase.setAudioInstructions("FASE"+i+".WAV");
 				phase.setIsRepeatable(true);
 				phase.setName("Fase "+i);
 				phase.setTries(2);
