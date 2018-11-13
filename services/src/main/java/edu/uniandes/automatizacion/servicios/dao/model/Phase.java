@@ -43,8 +43,14 @@ public class Phase implements Serializable{
 	@Column(name="position")
 	private Integer hits;
 	
-	@Column(name="audio_instrution")
-	private String audioInstrution;
+	@Column(name="audio_instructions")
+	private String audioInstructions;
+	
+	@Column(name="has_feedback_sound")
+	private Boolean hasFeedbackSound;
+	
+	@Column(name="previous_phase_on_error")
+	private Boolean previousPhaseOnError;
 	
 	@JoinColumn(name = "next_phase", nullable = true)
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -108,12 +114,12 @@ public class Phase implements Serializable{
 		this.hits = hits;
 	}
 
-	public String getAudioInstrution() {
-		return audioInstrution;
+	public String getAudioInstructions() {
+		return audioInstructions;
 	}
 
-	public void setAudioInstrution(String audioInstrution) {
-		this.audioInstrution = audioInstrution;
+	public void setAudioInstructions(String audioInstructions) {
+		this.audioInstructions = audioInstructions;
 	}
 	
 	public List<Test> getTests() {
@@ -138,6 +144,22 @@ public class Phase implements Serializable{
 
 	public void setPreviousPhase(Phase previousPhase) {
 		this.previousPhase = previousPhase;
+	}
+
+	public Boolean getHasFeedbackSound() {
+		return hasFeedbackSound;
+	}
+
+	public void setHasFeedbackSound(Boolean hasFeedbackSound) {
+		this.hasFeedbackSound = hasFeedbackSound;
+	}
+
+	public Boolean getPreviousPhaseOnError() {
+		return previousPhaseOnError;
+	}
+
+	public void setPreviousPhaseOnError(Boolean previousPhaseOnError) {
+		this.previousPhaseOnError = previousPhaseOnError;
 	}
 	
 }

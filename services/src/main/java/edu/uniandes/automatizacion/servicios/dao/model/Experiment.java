@@ -50,6 +50,9 @@ public class Experiment implements Serializable{
 	@JoinColumn(name="id_experiment", referencedColumnName="id_experiment", nullable = false)
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Phase> phases;
+	
+	@Column(name="media_type")
+	private String mediaType;
 
 	public Experiment() {
 		super();
@@ -126,6 +129,14 @@ public class Experiment implements Serializable{
 
 	public void setInstructions(String instructions) {
 		this.instructions = instructions;
+	}
+
+	public String getMediaType() {
+		return mediaType;
+	}
+
+	public void setMediaType(String mediaType) {
+		this.mediaType = mediaType;
 	}
 
 }
