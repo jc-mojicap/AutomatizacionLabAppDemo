@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import edu.uniandes.automatizacion.servicios.dao.model.Usuario;
 import edu.uniandes.automatizacion.servicios.endpoint.BaseRest;
 import edu.uniandes.automatizacion.servicios.endpoint.dto.UsuarioDTO;
-import edu.uniandes.automatizacion.servicios.endpoint.mapper.UsuarioMapper;
 import edu.uniandes.automatizacion.servicios.service.catalogo.iface.UsuarioService;
 
 @RestController
@@ -100,7 +99,8 @@ public class UsuarioRestEndpoint extends BaseRest {
      * @param nombreUsuario
      * @return
      */
-    @RequestMapping(value = "/" + MODULO + "/" + ENTIDAD + "s/nombreusuario", method = RequestMethod.GET)
+    @SuppressWarnings("unused")
+	@RequestMapping(value = "/" + MODULO + "/" + ENTIDAD + "s/nombreusuario", method = RequestMethod.GET)
     public List<UsuarioDTO> listarPorNombreUsuario(@RequestParam(name = "username") String nombreUsuario) {
         List<Usuario> usuarios = usuarioService.listarPorNombreUsuario(nombreUsuario);
 //        return UsuarioMapper.INSTANCE.usuariosToUsuariosDto(usuarios);

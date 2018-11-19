@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.uniandes.automatizacion.servicios.dao.model.Answer;
-import edu.uniandes.automatizacion.servicios.dao.model.Test;
 import edu.uniandes.automatizacion.servicios.service.catalogo.iface.AnswerService;
 
 @RestController
