@@ -41,6 +41,11 @@ public class Phase implements Serializable{
 	private Integer tries;
 	
 	@Column(name="position")
+	private Integer position;
+	
+
+
+	@Column(name="hits")
 	private Integer hits;
 	
 	@Column(name="audio_instructions")
@@ -161,5 +166,11 @@ public class Phase implements Serializable{
 	public void setPreviousPhaseOnError(Boolean previousPhaseOnError) {
 		this.previousPhaseOnError = previousPhaseOnError;
 	}
-	
+	public Integer getPosition() {
+		return position;
+	}
+
+	public void setPosition(Integer position) {
+		this.position = position;
+	}
 }

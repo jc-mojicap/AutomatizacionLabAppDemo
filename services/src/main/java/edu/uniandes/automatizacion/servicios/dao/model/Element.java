@@ -35,6 +35,10 @@ public class Element implements Serializable{
 	@Column(name="is_answer")
 	private Boolean isAnswer;
 	
+	@Column(name="is_initial")
+	private Boolean isInitial;
+	
+	
 	public Integer getIdElement() {
 		return idElement;
 	}
@@ -75,6 +79,14 @@ public class Element implements Serializable{
 		this.isAnswer = isAnswer;
 	}
 	
+	public Boolean getIsInitial() {
+		return isInitial;
+	}
+
+	public void setIsInitial(Boolean isInitial) {
+		this.isInitial = isInitial;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
