@@ -43,4 +43,13 @@ public class DBTest {
     }
 
 
+    @Test
+    public void testData() {
+        assertEquals("El experimento no se guardó correctamente", JdbcTestUtils.countRowsInTableWhere(jdbcTemplate, "experiment", "name= 'Experimento1'"), 1);
+        assertEquals("Las fases no se guardaron correctamente", JdbcTestUtils.countRowsInTableWhere(jdbcTemplate, "phase", "name = 'Fase1'"), 1);
+        assertEquals("Las pruebas no se guardaron correctamente", JdbcTestUtils.countRowsInTableWhere(jdbcTemplate, "test", "name = 'PE106'"), 1);
+        assertEquals("Los elementos no se guardaron correctamente", JdbcTestUtils.countRowsInTableWhere(jdbcTemplate, "element", "name = 'P1'"), 10);
+        assertEquals("Los grupos no se guardaron correctamente", JdbcTestUtils.countRowsInTableWhere(jdbcTemplate, "grupo", "name = 'rRupo1'"), 1);
+    }
+
 }
