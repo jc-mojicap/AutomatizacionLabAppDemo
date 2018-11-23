@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.uniandes.automatizacion.servicios.dao.model.Experiment;
@@ -31,7 +32,7 @@ public class ExperimentRestEndpoint {
     }
     
     @RequestMapping(value = "/" + MODULO + "/" + ENTIDAD+ "/" +EXPERIMENT_BY_ID, method = RequestMethod.GET)
-    public Experiment getExperimentById(@RequestBody Integer idExperiment) throws URISyntaxException {
+    public Experiment getExperimentById(@RequestParam Integer idExperiment) throws URISyntaxException {
     	return experimentService.getExperimentById(idExperiment);
     }
     
