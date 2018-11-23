@@ -32,7 +32,7 @@ public class ExperimentRestEndpoint {
     }
     
     @RequestMapping(value = "/" + MODULO + "/" + ENTIDAD+ "/" +EXPERIMENT_BY_ID, method = RequestMethod.GET)
-    public Experiment getExperimentById(@RequestParam Integer idExperiment) throws URISyntaxException {
+    public Experiment getExperimentById(@RequestParam(name="idExperiment", required=true) Integer idExperiment) throws URISyntaxException {
     	return experimentService.getExperimentById(idExperiment);
     }
     
