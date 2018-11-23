@@ -272,5 +272,13 @@ public class ExperimentServiceImpl implements ExperimentService {
 		//TODO enviar test de la siguiente iteracion
 		return test;
 	}
+
+
+	@Override
+	public Experiment getExperimentById(Integer idExperiment) {
+		// TODO Auto-generated method stub
+		Experiment experimento = experimentRepository.findByIdExperiment(idExperiment);
+		return experimento;
+	}
 	
 }

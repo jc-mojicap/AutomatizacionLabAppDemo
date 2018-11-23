@@ -8,5 +8,7 @@ public interface ExperimentService {
 	Experiment initializeExperiment();
 	
 	Test sendTestAnswer(Test test);
+	
+	Experiment getExperimentById(Integer idExperiment);
 
 }

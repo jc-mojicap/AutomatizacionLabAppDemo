@@ -18,6 +18,8 @@ public class ExperimentRestEndpoint {
 	private static final String MODULO = "catalogo";
     
     private static final String ENTIDAD = "experiment";
+    
+    private static final String EXPERIMENT_BY_ID ="findById";
 
     @Autowired
     private ExperimentService experimentService;
@@ -27,6 +29,12 @@ public class ExperimentRestEndpoint {
     public Experiment getExperiment() throws URISyntaxException {
     	return experimentService.initializeExperiment();
     }
+    
+    @RequestMapping(value = "/" + MODULO + "/" + ENTIDAD+ "/" +EXPERIMENT_BY_ID, method = RequestMethod.GET)
+    public Experiment getExperimentById(@RequestBody Integer idExperiment) throws URISyntaxException {
+    	return experimentService.getExperimentById(idExperiment);
+    }
+    
     
     @RequestMapping(value = "/" + MODULO + "/" + ENTIDAD, method = RequestMethod.PUT)
     public Test setAnswer(@RequestBody Test test) throws URISyntaxException {
